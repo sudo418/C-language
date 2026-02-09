@@ -1,12 +1,12 @@
-// THIS WAS BY HARD CODED INPUTS
-// #include<stdio.h>
-// int main()
-// {
-//     int length = 5, breath = 7;
-//     int area = length*breath;
-//     printf("the area of ur rectangle is %d", area);
-//     return 0;
-// }
+/* THIS WAS BY HARD CODED INPUTS
+#include<stdio.h>
+int main()
+{
+    int length = 5, breath = 7;
+    int area = length*breath;
+    printf("the area of ur rectangle is %d", area);
+    return 0;
+} */
 
 #include<stdio.h>
 int main()
