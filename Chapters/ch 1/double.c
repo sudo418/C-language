@@ -13,3 +13,6 @@ int main()
 Used to print a floating-point number in decimal (fixed-point) notation.
 
 %lf can also be used for double, though it's treated the same as %f in printf. However, %lf is necessary when using scanf to input a double. */
+
+// Use %lf with scanf for double (because double is larger than float)
+// Use %f with printf for double (float values are promoted to double while printing)
