@@ -17,7 +17,14 @@ int main()
     int b = 5;
     int z;
     z = b * c;
-    // b*a =z; is incorrect because you cannot assign a value to a multiplication expression.
+    
+    /* b*a =z; is incorrect because you cannot assign a value to a expression.
+    In C, '=' is an assignment operator, not a mathematical equals.
+    The left-hand side must be a variable (l-value) with a memory address.
+    The right-hand side is just a computed value (r-value).
+    Expressions like b*c do not have a memory location,
+    so b*c = z is invalid, but z = b*c is valid. */
+
 
     printf("the value of 4 to the power 3 is : %f", pow(4, 3)); // %f cus pow returns double otherwise it will return 0
     
