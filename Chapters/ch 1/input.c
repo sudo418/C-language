@@ -14,3 +14,32 @@ int main()
 }
 
 // %d is format specifier
+
+/*
+🔹 ----Integer types====
+
+%d → int
+%i → int (same as %d)
+%u → unsigned int
+%ld → long int
+%lld → long long int
+
+🔹 ====Floating-point types====
+
+%f → float
+%lf → double
+%Lf → long double
+
+🔹 ====Character & String====
+
+%c → char
+%s → string (char array)
+
+🔹 ====Others (basic awareness)====
+
+%o → octal number
+%x → hexadecimal (lowercase)
+%X → hexadecimal (uppercase)
+%p → address (pointer)
+%% → print % symbol
+*/
