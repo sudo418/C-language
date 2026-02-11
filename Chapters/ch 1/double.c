@@ -4,15 +4,16 @@ int main()
 {
     double num;
     printf("Enter a num: ");
-    scanf("%lf", &num); // Use %lf for reading double
+    scanf("%lf", &num); 
     printf("You entered: %f\n", num);
 
     return 0;
 }
-/* The format specifier for a double in C is: %f
-Used to print a floating-point number in decimal (fixed-point) notation.
 
-%lf can also be used for double, though it's treated the same as %f in printf. However, %lf is necessary when using scanf to input a double. */
+/* For double:
+scanf  -> use %lf (using %f causes undefined behavior).
+printf -> both %f and %lf can be used because values are promoted to double. */
 
-// Use %lf with scanf for double (because double is larger than float)
-// Use %f with printf for double (float values are promoted to double while printing)
+/* If %f is used with scanf for a double variable, scanf expects a float but gets a double instead.
+This causes undefined behavior because only 4 bytes
+are written instead of 8, leading to garbage or wrong output. */
