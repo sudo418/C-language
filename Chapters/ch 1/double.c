@@ -12,8 +12,7 @@ int main()
 
 /* For double:
 scanf  -> use %lf (using %f causes undefined behavior).
-printf -> both %f and %lf can be used because values are promoted to double. */
+printf -> both %f and %lf can be used because values are promoted to double. 
 
-/* If %f is used with scanf for a double variable, scanf expects a float but gets a double instead.
-This causes undefined behavior because only 4 bytes
-are written instead of 8, leading to garbage or wrong output. */
+--> If %f is used with scanf for a double variable, scanf expects a float but gets a double instead.
+--> This causes undefined behavior because only 4 bytes are written instead of 8, leading to garbage or wrong output. */
