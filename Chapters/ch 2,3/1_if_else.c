@@ -15,5 +15,16 @@ int main()
     {
         printf("you cannnot drive");
     }
+
+    int a = 5;
+    int b = 6;
+
+    int isGreater = a<b;
+
+    if (isGreater)
+    {
+        printf("\nb is greater");
+    }
+    
     return 0;
 }
