@@ -2,7 +2,7 @@
 
 int main()
 {
-    // q1
+    // Q1) check number is greater than 10 or not -->
     int a;
     printf("Enter num : ");
     scanf("%d", &a);
@@ -16,7 +16,7 @@ int main()
         printf("num is not greater than 10\n");
     }
 
-    // q2
+    // Q2) check number is greater than 67 or not -->
     int b;
     printf("Enter num : ");
     scanf("%d", &b);
@@ -30,7 +30,7 @@ int main()
         printf("num is not greater than 67\n");
     }
 
-    // q3
+    // Q3) check number is even or odd -->
     int c;
     printf("Enter num : ");
     scanf("%d", &c);
@@ -44,7 +44,7 @@ int main()
         printf("odd\n");
     }
 
-    // q4
+    // Q4) check number is divisible by 5 or not -->
     int d;
     printf("Enter num : ");
     scanf("%d", &d);
@@ -58,7 +58,7 @@ int main()
         printf("num is not divisible by 5\n");
     }
 
-    // q5
+    // Q5) input character :a = apple -->
     char ch;
     printf("Enter any char : ");
     scanf(" %c", &ch);
@@ -72,7 +72,7 @@ int main()
         printf("input is not matched\n");
     }
 
-    // q6
+    // Q6) input character :b = ball -->
     char ch1;
     printf("Enter any char : ");
     scanf(" %c", &ch1);
@@ -86,7 +86,7 @@ int main()
         printf("input is not matched\n");
     }
 
-    // q7
+    // Q7) character is vowel and consonant -->
     char ch2;
     int flag = 0;
 
@@ -109,7 +109,7 @@ int main()
     else
         printf("not vowel\n");
 
-    // q8
+    // Q8) check character is upper line or not -->
     char ch3;
     flag = 0; // flag reset
 
@@ -142,7 +142,7 @@ int main()
     else
         printf("input not matched\n");
 
-    // q9
+    // Q9) character is mid line or not -->
     char ch4;
     flag = 0;
 
@@ -175,7 +175,7 @@ int main()
         printf("input not matched\n");
     }
 
-    // q10
+    // Q10) character is lower line or not -->
     char ch5;
     flag = 0;
 
@@ -204,7 +204,7 @@ int main()
         printf("input not matched\n");
     }
 
-    // q11
+    // Q11) input character 'a'= two number addition -->
     char op;
     printf("Enter the operation (a for addition of 2 nums): ");
     scanf(" %c", &op);
@@ -222,7 +222,7 @@ int main()
         printf("input not matched\n");
     }
 
-    // q12
+    // Q12) input character 's' = four number substraction -->
     char op1;
     printf("Enter the operation (s for subtraction): ");
     scanf(" %c", &op1);
@@ -240,7 +240,7 @@ int main()
         printf("input not matched\n");
     }
 
-    // q13
+    // Q13) input character 'm' = two number multiplication
     char op2;
     printf("Enter the operation (m for multiplication): ");
     scanf(" %c", &op2);
@@ -258,7 +258,7 @@ int main()
         printf("input not matched\n");
     }
 
-    // q 14
+    // Q14) input character 'd' = two number divide
     char op3;
     printf("Enter the operation (d for division): ");
     scanf(" %c", &op3);
@@ -279,7 +279,7 @@ int main()
         printf("input not matched\n");
     }
 
-    // q15
+    // Q15) input char 's' = swap two number without 3rd variable
     char swap;
     printf("Enter the operation (s for swap with 3rd variable): ");
     scanf(" %c", &swap);
@@ -302,7 +302,7 @@ int main()
         printf("input not matched\n");
     }
 
-    // q16
+    // Q16) input char 'w' = swap two number with 3rd variable
     char swap1;
     printf("Enter the operation (w for swap without using 3rd variable): ");
     scanf(" %c", &swap1);
