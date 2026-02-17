@@ -34,7 +34,7 @@ int main()
     }
     
 
-    // Q3 Shaadi.com program -->
+    // Q2 Shaadi.com program -->
     char gender;
     int age;
     printf("Enter gender (m/f) and age (comma separated): ");
