@@ -1,6 +1,3 @@
-/* else-if ladder is used to check multiple conditions or ranges.
-switch is used to match one variable against fixed constant values */
-
 #include <stdio.h>
 int main()
 {
