@@ -1,3 +1,11 @@
+/* -->  Use multiple if → when many things can be true.
+
+--> Use else-if ladder → when only one result should happen
+
+--> Use nested if → when condition depends on another condition
+
+--> Use switch → when checking one variable against many fixed values */
+
 #include<stdio.h>
 int main()
 {

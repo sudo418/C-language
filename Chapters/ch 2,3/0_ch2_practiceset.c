@@ -10,7 +10,7 @@ int main()
     
     printf("divisiblity test returns %d\n", a % 97);
 
-    // we cant use float in this cuz Using modulus (%) with a floating-point number: The modulus operator (%) is intended for integer values. If you want to check divisibility or find the remainder of a floating-point division, you should use the fmod() function from the math.h library.
+    // we cant use float in this cuz: The modulus operator (%) is intended for integer values. If you want to check divisibility or find the remainder of a floating-point division, you should use the fmod() function from the math.h library.
 
 
     int c = 4;
