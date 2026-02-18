@@ -6,6 +6,22 @@
 
 --> Use switch → when checking one variable against many fixed values */
 
+/* 🎯 HOW TO DECIDE (Exam Trick)
+
+1. Can multiple outputs happen?
+   → Yes → Use multiple if statements
+
+2. Only one output should happen?
+   → Yes → Go to next question
+
+3. Are you checking ranges (>, <, >=, <=)?
+   Example: marks, age, salary
+   → Yes → Use else-if ladder
+
+4. Are you checking fixed values?
+   Example: 1, 2, 3 or 'a', 'b', 'c'
+   → Yes → Use switch case */
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,6 @@
+/* --> switch works with: int, char, short, long, long long, signed / unsigned versions of these and enum.
+switch does not work with: float, double, string */
+
 #include <stdio.h>
 int main()
 {
