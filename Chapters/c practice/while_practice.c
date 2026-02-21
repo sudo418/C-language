@@ -141,7 +141,7 @@ int main()
     scanf("%d", &n1);
 
     while (k <= n1) {
-        fact = fact * k;
+        fact *= k;
         k++;
     }
     printf("Factorial = %d\n", fact);
