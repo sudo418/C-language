@@ -146,29 +146,35 @@ int main()
 
 
     // Q11) Factorial of a number -->
-    int n1, k = 1, fact = 1;
+    int n1, fact = 1;
 
     printf("Enter number: ");
     scanf("%d", &n1);
 
-    while (k <= n1) {
-        fact *= k;
-        k++;
+    if (n1 < 0) {
+        printf("Factorial not defined\n");
     }
-    printf("Factorial = %d\n", fact);
+    else {
+        while (n1 > 0) {
+            fact *= n1;
+            n1--;
+        }
+        printf("Factorial = %d\n", fact);
+    }
 
 
     // Q12) Product of all odd numbers from 1 to n -->
-    int number, x = 1, product = 1;
+    int number, product = 1;
 
-    printf("Enter n: ");
+    printf("Enter number: ");
     scanf("%d", &number);
 
-    while (x <= number) {
-        if (x % 2 != 0) {
-            product *= x;
-        }
-        x++;
+    if (number % 2 == 0) {
+        number--;
+    }
+    while (number > 0) {
+        product *= number;
+        number -= 2;
     }
     printf("Product = %d\n", product);
 
@@ -186,7 +192,6 @@ int main()
         }
         i++;
     }
-
     if (count == 2) {
         printf("Prime number\n");
     } else {
@@ -212,15 +217,14 @@ int main()
 
 
     // Q15) Power of a number (x^y) -->
-    int x1, y, result = 1;
-    i = 1; 
+    int base, pow, result = 1;
 
     printf("Enter base and power (comma separated): ");
-    scanf("%d,%d", &x1, &y);
+    scanf("%d,%d", &base, &pow);
 
-    while (i <= y) {
-        result *= x1;
-        i++;
+    while (pow > 0) {
+        result *= base;
+        pow--;
     }
     printf("Result = %d\n", result);
 
