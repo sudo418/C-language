@@ -58,28 +58,34 @@ int main()
 
 
     // Q6) Sum of integers from 1 to N -->
-    int j = 1, n, sum = 0;
+    int n, sum = 0;
     printf("Enter n: ");
     scanf("%d", &n);
 
-    while (j <= n)
-    {
-        sum += j;
-        j++;
+    if (n > 0) {
+        while (n > 0) {
+            sum += n;
+            n--;
+        }
+    } 
+    else { 
+        while (n < 0) {
+            sum += n;
+            n++;
+        }
     }
     printf("Sum = %d\n", sum);
 
 
     // Q7) Sum of all even numbers between 1 and 100 -->
-    j = 1, sum = 0; // reset
+    i = 1, sum = 0; // reset
 
-    while (j <= 100) {
-        if (j % 2 == 0) {
-            sum += j;
+    while (i <= 100) {
+        if (i % 2 == 0) {
+            sum += i;
         }
-        j++;
+        i++;
     }
-
     printf("Sum = %d\n", sum);
 
 
@@ -90,32 +96,38 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    while (num != 0)
-    {
+    if (num < 0) {
+        num = -num;   // convert to positive
+    }
+
+    while (num != 0) {
         digit = num % 10;
         sum += digit;
         num /= 10;
     }
-
     printf("Sum of digits = %d\n", sum);
     
 
     // Q9) Average of n entered by user  -->
-    int num1, digit1, count = 0;
-    sum = 0; 
+    int count = 0;
     float avg;
+    sum = 0; // reset
 
     printf("Enter a number: ");
-    scanf("%d", &num1);
+    scanf("%d", &num);
 
-    if (num1 == 0) {
-    avg = 0;
-    } else {
+    if (num < 0) {
+        num = -num;  
+    }
 
-        while (num1 != 0) {
-            digit1 = num1 % 10;     
-            sum += digit1;    
-            num1 /= 10;       
+    if (num == 0) {
+        avg = 0;
+    }
+    else {
+        while (num != 0) {
+            digit = num % 10;     
+            sum += digit;    
+            num /= 10;       
             count ++;    
         }
         avg = (float)sum / count;
@@ -130,7 +142,6 @@ int main()
         sum += i;
         i += 7;   // optimized for multiples of 7
     }
-
     printf("Sum = %d\n", sum);
 
 
