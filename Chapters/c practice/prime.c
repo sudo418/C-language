@@ -53,8 +53,8 @@ int main()
     }
 
     // Averages
-    float even_avg = (even_count > 0) ? (float)even_sum / even_count : 0;
-    float odd_avg = (odd_count > 0) ? (float)odd_sum / odd_count : 0;
+    float even_avg = (float)even_sum / even_count;
+    float odd_avg = (float)odd_sum / odd_count;
 
     // Results
     printf("\nEven sum = %d", even_sum);
