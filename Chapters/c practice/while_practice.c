@@ -188,7 +188,7 @@ int main()
 
     while (i <= n3) {
         if (n3 % i == 0) {
-            count += 1;
+            count++;
         }
         i++;
     }
