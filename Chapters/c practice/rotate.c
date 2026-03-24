@@ -2,6 +2,7 @@
 
 int main()
 {
+    // q3) Roatation of n K times:- 
     int n, rotation, digit, rev = 0, i = 1;
     printf("Enter n and rotation: ");
     scanf("%d %d", &n, &rotation);
@@ -14,8 +15,7 @@ int main()
     
     rotation %= count;
 
-    while (i <= rotation)
-    {
+    while (i <= rotation) {
         digit = n % 10;
         rev = rev * 10 + digit;
         n /= 10;

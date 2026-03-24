@@ -54,7 +54,6 @@ int main()
     }
     printf("\n");
 
-
     // q5) 10  9,8   7,6,5  4,3,2,1
     num = n * (n + 1) / 2;
     for (int i = 1; i <= n; i++)
@@ -178,7 +177,7 @@ int main()
     }
     printf("\n");
 
-    // q14)
+    // q14)   10,9,8,7  6,5,4  3,2  1
     num = n * (n + 1) / 2; 
     for (int i = 1; i <= n; i++)
     {
@@ -190,7 +189,7 @@ int main()
     }
     printf("\n");
 
-    // q15)
+    // q15)  1,3,5,7  9,11,13  15,17  19
     num = 1;
     for (int i = 1; i <= n; i++)
     {
@@ -203,7 +202,7 @@ int main()
     }
     printf("\n");
 
-    // q16) 
+    // q16)   19,17,15,13  11,9,7  5,3  1  
     num = n * (n + 1) - 1;
     for (int i = 1; i <= n; i++)
     {
@@ -216,7 +215,7 @@ int main()
     }
     printf("\n");
 
-    // q17)
+    // q17)  2,4,6,8  10,12,14  16,18  20
     num = 2;
     for (int i = 1; i <= n; i++)
     {
@@ -229,7 +228,7 @@ int main()
     }
     printf("\n");
 
-    // q18)
+    // q18)  20,18,16,14  12,10,8  6,4  2
     num = n * (n + 1);
     for (int i = 1; i <= n; i++)
     {
@@ -242,7 +241,7 @@ int main()
     }
     printf("\n");
 
-    // q19)
+    // q19)  1  21  321  4321
     for (int i = 1; i <= n; i++)
     {
         int num = 1;
@@ -259,7 +258,7 @@ int main()
     }
     printf("\n");
 
-    // q20)
+    // q20)  1  22  333  4444
     for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= n - i; j++)
@@ -275,7 +274,7 @@ int main()
     }
     printf("\n");
 
-    // q21)
+    // q21)  4  33  222  1111
     num = n;
     for (int i = 1; i <= n; i++)
     {
@@ -293,7 +292,7 @@ int main()
     }
     printf("\n");
 
-    // q22)
+    // q22)  1  23  456  7,8,9,10
     num = 1;
     for (int i = 1; i <= n; i++)
     {
@@ -310,7 +309,7 @@ int main()
     }
     printf("\n");
 
-    // q23)
+    // q23)  10  9,8  7,6,5  4,3,2,1  
     num = n * (n + 1) / 2;
     for (int i = 1; i <= n; i++)
     {
@@ -327,7 +326,7 @@ int main()
     }    
     printf("\n");
 
-    // q24)
+    // q24)  1  3,5  7,9,11  13,15,17,19
     num = 1;
     for (int i = 1; i <= n; i++)
     {
@@ -345,7 +344,7 @@ int main()
     }
     printf("\n");
 
-    // q25) 
+    // q25)  19  17,15  13,11,9  7,5,3,1
     num = n * (n + 1) - 1;
     for (int i = 1; i <= n; i++)
     {
@@ -363,7 +362,7 @@ int main()
     }
     printf("\n");
 
-    // q26)
+    // q26)  2  4,6  8,10,12  14,16,18,20
     num = 2;
     for (int i = 1; i <= n; i++)
     {
@@ -381,7 +380,7 @@ int main()
     }
     printf("\n");
 
-    // q27)
+    // q27)  20  18,16  14,12,10  8,6,4,2
     num = n * (n + 1);
     for (int i = 1; i <= n; i++)
     {
@@ -399,7 +398,7 @@ int main()
     }
     printf("\n");
 
-    // q28)
+    // q28)  4321  321  21  1
     num = n;
     for (int i = 1; i <= n; i++)
     {
@@ -417,7 +416,7 @@ int main()
     }
     printf("\n");
 
-    // q29)
+    // q29)  1111  222  33  4
     num = n;
     for (int i = 1; i <= n; i++)
     {
@@ -435,7 +434,7 @@ int main()
     }
     printf("\n");
 
-    // q30) 
+    // q30)   4444  333  22  1
     num = n;
     for (int i = 1; i <= n; i++)
     {
@@ -453,7 +452,7 @@ int main()
     }
     printf("\n");
 
-    // q31)
+    // q31) 1,2,3,4  5,6,7  8,9  10
     num = 1;
     for (int i = 1; i <= n; i++)
     {
@@ -470,7 +469,7 @@ int main()
     }
     printf("\n");
 
-    // q32)
+    // q32)  10,9,8,7  6,5,4  3,2  1
     num = n * (n + 1) / 2;
     for (int i = 1; i <= n; i++)
     {
@@ -487,7 +486,7 @@ int main()
     }
     printf("\n");
 
-    // q33)
+    // q33)  1,3,5,7  9,11,13  15,17  19
     num = 1;
     for (int i = 1; i <= n; i++)
     {
@@ -505,7 +504,7 @@ int main()
     }
     printf("\n");
 
-    // q34)
+    // q34)  19,17,15,13  11,9,7  5,3  1
     num = n * (n + 1) -1;
     for (int i = 1; i <= n; i++)
     {
@@ -523,7 +522,7 @@ int main()
     }
     printf("\n");
 
-    // q35)
+    // q35)  2,4,6,8  10,12,14  16,18  20
     num = 2;
     for (int i = 1; i <= n; i++)
     {
@@ -541,7 +540,7 @@ int main()
     }
     printf("\n");
 
-    // q36)
+    // q36)  20,18,16,14  12,10,8  6,4  2
     num = n * (n + 1);
     for (int i = 1; i <= n; i++)
     {
